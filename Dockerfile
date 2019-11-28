@@ -1,6 +1,6 @@
 FROM bethgelab/deeplearning:cuda10.0-cudnn7
 
-RUN pip install --upgrade pip
+# RUN pip install --upgrade pip
 
 RUN pip install jupyterlab && \
     jupyter serverextension enable --py jupyterlab --sys-prefix
